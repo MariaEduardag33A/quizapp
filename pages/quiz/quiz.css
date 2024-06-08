@@ -1,4 +1,4 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -159,38 +159,36 @@ main {
     cursor: pointer;
 }
 
-.alternativas label:hover{
-    & span {
-        background: var(--bg-acessibilidade);
-        color: var(--purple);
-    }
+.alternativas label:hover span {
+    background: var(--bg-acessibilidade);
+    color: var(--purple);
 }
 
-.alternativas label:has(input: :checked) {
+.alternativas label:has(input:checked) {
     outline: 3px solid var(--purple);
+}
 
-    & span {
-        background: var(--purple);
-        color: var(--white);
-    }
+.alternativas label:has(input:checked) span {
+    background: var(--purple);
+    color: var(--white);
 }
 
 .alternativas label#correta {
     outline: 3px solid var(--green);
+}
 
-    & span {
-        background: var(--green);
-        color: var(--white);
-    }
+.alternativas label#correta span {
+    background: var(--green);
+    color: var(--white);
 }
 
 .alternativas label#errada {
     outline: 3px solid var(--red);
+}
 
-    & span {
-        background: var(--red)
-        color: var(var(--white))
-    }
+.alternativas label#errada span {
+    background: var(--red);
+    color: var(--white);
 }
 
 .alternativas input {
@@ -210,7 +208,6 @@ main {
     background: var(--bg-span);
     border-radius: 5px;
     color: var(--color-span);
-
     display: flex;
     align-items: center;
     justify-content: center;
@@ -223,9 +220,8 @@ main {
     border: none;
     background: var(--purple);
     color: var(--white);
-    width: 100%
-    
-    font-size: 18px
+    width: 100%;
+    font-size: 18px;
     font-weight: 500;
     transition: background 0.3s;
 }
@@ -280,7 +276,6 @@ main {
     main {
         max-width: 1160px;
         margin-inline: auto;
-
         display: flex;
         gap: 130px;
     }
