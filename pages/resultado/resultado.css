@@ -14,15 +14,13 @@
     --purple-hover: rgba(167, 41, 245, 0.6);
     --primary-text-color: #313e51;
     --secondary-text-color: #626c7f;
-    --button-bg: #fff;
+    --pontuacao-bg: #fff;
     --shadow: 0px 16px 40px 0px rgba(143, 160, 193, 0.14);
     --bg-html: #fff1e9;
     --bg-css: #e0fdef;
     --bg-javascript: #ebf0ff;
     --bg-acessibilidade: #f6e7ff;
     --white: #fff;
-    --green: #26d782;
-    --red: #ee5454;
     --bg-mobile: url(../../assets/images/pattern-background-mobile-light.svg);
     --bg-desktop: url(../../assets/images/pattern-background-desktop-light.svg);
 }
@@ -118,7 +116,7 @@ main h2 strong {
 }
 
 .pontuacao {
-    background: var(--button-bg);
+    background: var(--pontuacao-bg);
     padding: 32px;
     display: flex;
     flex-direction: column;
@@ -126,6 +124,7 @@ main h2 strong {
     gap: 16px;
     border-radius: 12px;
     margin-bottom: 12px;
+    box-shadow: var(--shadow);
 }
 
 .pontuacao strong {
@@ -150,6 +149,7 @@ main button {
     font-size: 18px;
     font-weight: 500;
     transition: background 0.3s;
+    box-shadow: var(--shadow);
 }
 
 main button:hover {
@@ -233,7 +233,7 @@ main button:hover {
 
     main button {
         font-size: 22px;
-        padding: 32px;
+        padding: 24px;
         border-radius: 24px;
     }
 }
