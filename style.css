@@ -66,7 +66,7 @@ header {
     border-radius: 999px;
     padding: 4px;
     display: flex;
-    cursor: pointer; /* Ensure cursor pointer is added here */
+    cursor: pointer;
 }
 
 .tema button div {
@@ -120,7 +120,7 @@ main {
     font-size: 18px;
     font-weight: 500;
     color: var(--primary-text-color);
-    cursor: pointer; /* Ensure cursor pointer is added here */
+    cursor: pointer;
 }
 
 .assuntos button div {
