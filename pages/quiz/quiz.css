@@ -1,4 +1,4 @@
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -35,7 +35,7 @@ body.escuro {
 }
 
 body {
-    height: 100svh;
+    height: 100vh;
     background: var(--bg-mobile) var(--bg-color);
     background-repeat: no-repeat;
     background-size: cover;
@@ -217,7 +217,24 @@ main {
     font-weight: 500;
 }
 
-@media(min-width: 1100px){
+@media(min-width: 1100px) {
+    
+    header {
+        margin-block: 81px;
+        max-width: 1160px;
+        margin-inline: auto;
+    }
+    
+    .assunto_icone {
+        width: 56px;
+        height: 56px;
+        padding: 8px;
+    }
+
+    .assunto h1 {
+        font-size: 28px;
+    }
+
     .tema {
         gap: 16px;
     }
@@ -234,5 +251,58 @@ main {
     .tema button div {
         width: 20px;
         height: 20px;
+    }
+
+    main {
+        max-width: 1160px;
+        margin-inline: auto;
+
+        display: flex;
+        gap: 130px;
+    }
+
+    section {
+        width: 100px;
+    }
+
+    .pergunta {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .pergunta p {
+        font-size: 20px;
+        line-height: 30px;
+        margin-bottom: 27px;
+    }
+
+    .pergunta h2 {
+        font-size: 36px;
+        line-height: 42px;
+    }
+
+    .alternativas form {
+        gap: 22px;
+        margin-bottom: 24px;
+    }
+
+    .alternativas label {
+        font-size: 28px;
+        padding: 18px 20px;
+    }
+
+    .alternativas div {
+        gap: 32px;
+    }
+
+    .alternativas div span {
+        width: 56px;
+        height: 56px;
+        font-size: 28px;
+    }
+
+    .alternativas button {
+        font-size: 22px;
     }
 }
